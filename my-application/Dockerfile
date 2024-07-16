@@ -3,7 +3,7 @@ FROM ubuntu
 WORKDIR /app
 
 COPY requirements.txt /app
-COPY devops /app
+COPY mysite /app
 
 ENV PIP_BREAK_SYSTEM_PACKAGES 1
 
